@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services Section</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      .services {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #ffffff;
+      }
+      .services h2 {
+        margin-bottom: 40px;
+        font-size: 2rem;
+      }
+      .service-cards {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      .card {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+      }
+      .card i {
+        font-size: 2rem;
+        color: #6a11cb;
+        margin-bottom: 15px;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img src="../assets/svg/web-design.svg" width="30px" height="30px" />
+          <h3>Web Design</h3>
+          <p>Creating visually appealing and user-friendly websites.</p>
+        </div>
+        <div class="card">
+          <img src="../assets/svg/seo.svg" width="30px" height="30px" />
+          <h3>SEO Optimization</h3>
+          <p>Improving your website's visibility on search engines.</p>
+        </div>
+        <div class="card">
+          <img src="../assets/svg/web.svg" width="30px" height="30px" />
+          <h3>Web Development</h3>
+          <p>Building fast and reliable web applications.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
